@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
-const OptionsSchema = new Schema({
+const OptionSchema = new Schema({
   option: {
     type: String,
     required: [true, "Option name is Required"],
@@ -12,6 +12,6 @@ const OptionsSchema = new Schema({
   },
 });
 
-const Options = mongoose.model("Options", OptionsSchema);
+const Option = mongoose.model("Option", OptionSchema);
 
-module.exports = Options;
+module.exports = { OptionSchema, Option };

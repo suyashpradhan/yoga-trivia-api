@@ -1,0 +1,127 @@
+{
+  "trivia": {
+    "triviaName": "Ready to be a Yoga Guru?",
+    "triviaTotalQuestions": 5,
+    "triviaTotalTime": 1.5,
+    "triviaTotalPoints": 25,
+    "triviaQuestions": [{
+        "question": "Who is believed to be the father of Yoga?",
+        "correctPoints": 5,
+        "negativePoints": 2,
+        "timeInSeconds": 15,
+
+        "options": [{
+            "option": "Krishnamacharya",
+            "isCorrect": false
+          },
+          {
+            "option": "Gautam Buddha",
+            "isCorrect": false
+          },
+          {
+            "option": "Maharshi Patanjali",
+            "isCorrect": true
+          },
+          {
+            "option": "Adi Shankaracharya",
+            "isCorrect": false
+          }
+        ]
+      }, {
+        "question": "Yoga makes your bones.....",
+        "correctPoints": 5,
+        "negativePoints": 2,
+        "timeInSeconds": 15,
+
+        "options": [{
+            "option": "Hard",
+            "isCorrect": false
+          },
+          {
+            "option": "Flexible",
+            "isCorrect": false
+          },
+          {
+            "option": "Stronger",
+            "isCorrect": true
+          },
+          {
+            "option": "Thick",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "International Yoga day is celebrated on.....",
+        "correctPoints": 5,
+        "negativePoints": 2,
+        "timeInSeconds": 15,
+        "options": [{
+            "option": "29 June",
+            "isCorrect": false
+          },
+          {
+            "option": "21 June",
+            "isCorrect": true
+          },
+          {
+            "option": "21 July",
+            "isCorrect": true
+          },
+          {
+            "option": "18 June",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "Surya Namaskar means",
+        "correctPoints": 5,
+        "negativePoints": 2,
+        "timeInSeconds": 15,
+
+        "options": [{
+            "option": "Moon salutation",
+            "isCorrect": false
+          },
+          {
+            "option": "Earth Salutation",
+            "isCorrect": false
+          },
+          {
+            "option": "Star salutation",
+            "isCorrect": false
+          },
+          {
+            "option": "Sun salutation",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "question": "Is Meditation a part of yoga",
+        "correctPoints": 5,
+        "negativePoints": 2,
+        "timeInSeconds": 15,
+
+        "options": [{
+            "option": "Yes",
+            "isCorrect": true
+          },
+          {
+            "option": "50-50%",
+            "isCorrect": false
+          },
+          {
+            "option": "No",
+            "isCorrect": false
+          },
+          {
+            "option": "Not Sure",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+}

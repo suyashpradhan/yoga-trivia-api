@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Questions = require("./questions.model");
+const { QuestionSchema } = require("./questions.model");
 const { Schema } = mongoose;
 
 const TriviaSchema = new Schema(
@@ -8,9 +8,9 @@ const TriviaSchema = new Schema(
       type: String,
       required: [true, "Trivia name is Required"],
     },
-    triviaImage: {
-      type: String,
-      required: [true, "Trivia image is required"],
+    triviaTotalQuestions: {
+      type: Number,
+      required: [true, "Total Questions are Required"],
     },
     triviaTotalTime: {
       type: Number,
@@ -20,11 +20,11 @@ const TriviaSchema = new Schema(
       type: Number,
       require: [true, "Trivia points is required"],
     },
-    triviaQuestions: [Questions],
+    triviaQuestions: [QuestionSchema],
   },
   { timestamps: true }
 );
 
 const Trivia = mongoose.model("Trivia", TriviaSchema);
 
-module.exports = Trivia;
+module.exports = { Trivia };

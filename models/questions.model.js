@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Options = require("./options.model");
+const { OptionSchema } = require("./options.model");
 const { Schema } = mongoose;
 
 const QuestionSchema = new Schema({
@@ -19,9 +19,9 @@ const QuestionSchema = new Schema({
     type: Number,
     required: [true, "Time is required"],
   },
-  options: [Options],
+  options: [OptionSchema],
 });
 
-const Questions = mongoose.mddel("Question", QuestionSchema);
+const Questions = mongoose.model("Question", QuestionSchema);
 
-module.exports = Questions;
+module.exports = { QuestionSchema, Questions };
