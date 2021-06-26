@@ -1,0 +1,124 @@
+{
+  "trivia": {
+    "triviaName": "Get much do you know about Yoga?",
+    "triviaTotalQuestions": 5,
+    "triviaTotalTime": 1.5,
+    "triviaTotalPoints": 25,
+    "triviaQuestions": [{
+        "question": "Yoga Means?",
+        "correctPoints": 5,
+        "negativePoints": 2,
+        "timeInSeconds": 15,
+        "options": [{
+            "option": "Anger",
+            "isCorrect": false
+          },
+          {
+            "option": "Body",
+            "isCorrect": false
+          },
+          {
+            "option": "Mind",
+            "isCorrect": true
+          },
+          {
+            "option": "Hair",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "Yoga is bad for health",
+        "correctPoints": 5,
+        "negativePoints": 2,
+        "timeInSeconds": 15,
+        "options": [{
+            "option": "Yes",
+            "isCorrect": false
+          },
+          {
+            "option": "Maybe",
+            "isCorrect": false
+          },
+          {
+            "option": "No",
+            "isCorrect": true
+          },
+          {
+            "option": "50-50%",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "The word 'yoga' comes from which language?",
+        "correctPoints": 5,
+        "negativePoints": 2,
+        "timeInSeconds": 15,
+        "options": [{
+            "option": "English",
+            "isCorrect": false
+          },
+          {
+            "option": "Sanskrit",
+            "isCorrect": true
+          },
+          {
+            "option": "Roman",
+            "isCorrect": false
+          },
+          {
+            "option": "Hindi",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "What is the best day to perform yoga?",
+        "correctPoints": 5,
+        "negativePoints": 2,
+        "timeInSeconds": 15,
+        "options": [{
+            "option": "Mondays",
+            "isCorrect": false
+          },
+          {
+            "option": "Saturdays",
+            "isCorrect": false
+          },
+          {
+            "option": "Any day is a great day for yoga!",
+            "isCorrect": true
+          },
+          {
+            "option": "I am not sure",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "To do Yoga, you need a .....",
+        "correctPoints": 5,
+        "negativePoints": 2,
+        "timeInSeconds": 15,
+        "options": [{
+            "option": "Clean Mat, With flat Surface",
+            "isCorrect": true
+          },
+          {
+            "option": "Clean Chair",
+            "isCorrect": false
+          },
+          {
+            "option": "Treadmill",
+            "isCorrect": false
+          },
+          {
+            "option": "Table",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+}
