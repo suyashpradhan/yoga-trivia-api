@@ -5,7 +5,7 @@ const getTriviaList = async (req, res) => {
   try {
     const trivia = await Trivia.find()
       .select(
-        "_id, triviaName triviaTotalQuestions  triviaTotalTime triviaTotalPoints"
+        "_id, triviaName triviaTotalQuestions triviaTotalTime triviaTotalPoints triviaImage"
       )
       .exec();
     res
