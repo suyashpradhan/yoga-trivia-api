@@ -8,10 +8,13 @@ const TriviaSchema = new Schema(
       type: String,
       required: [true, "Trivia name is Required"],
     },
-
+    triviaDescription: {
+      type: String,
+      required: [true, "Trivia Description is Required"],
+    },
     triviaImage: {
       type: String,
-      require: [true, "Trivia Image is required"],
+      required: [true, "Trivia Image is required"],
     },
     triviaTotalQuestions: {
       type: Number,
@@ -23,11 +26,11 @@ const TriviaSchema = new Schema(
     },
     triviaTotalPoints: {
       type: Number,
-      require: [true, "Trivia points is required"],
+      required: [true, "Trivia points is required"],
     },
     triviaDifficulty: {
-      type: Number,
-      require: [true, "Trivia difficulty is required"],
+      type: String,
+      required: [true, "Trivia difficulty is required"],
     },
 
     triviaQuestions: [QuestionSchema],

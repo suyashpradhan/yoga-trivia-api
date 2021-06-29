@@ -1,9 +1,12 @@
 {
   "trivia": {
-    "triviaName": "Get much do you know about Yoga?",
+    "triviaName": "Yoga for beginners",
+    "triviaDescription": "Test basic knowledge of Yoga ",
     "triviaTotalQuestions": 5,
     "triviaTotalTime": 1.5,
     "triviaTotalPoints": 25,
+    "triviaDifficulty": "Easy",
+    "triviaImage": "https://yoga-trivia-assets.s3.ap-south-1.amazonaws.com/easy.svg",
     "triviaQuestions": [{
         "question": "Yoga Means?",
         "correctPoints": 5,

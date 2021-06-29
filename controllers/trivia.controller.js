@@ -5,7 +5,7 @@ const getTriviaList = async (req, res) => {
   try {
     const trivia = await Trivia.find()
       .select(
-        "_id, triviaName triviaTotalQuestions triviaTotalTime triviaTotalPoints triviaImage triviaDifficulty"
+        "_id triviaName triviaTotalQuestions triviaTotalTime triviaTotalPoints triviaImage triviaDifficulty triviaDescription"
       )
       .exec();
     res
@@ -23,7 +23,6 @@ const getTriviaList = async (req, res) => {
 const addNewTrivia = async (req, res) => {
   const { trivia } = req.body;
   try {
-    console.log("Inside try");
     let newTrivia = new Trivia(trivia);
     newTrivia = await newTrivia.save();
 
