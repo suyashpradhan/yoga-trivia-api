@@ -4,10 +4,10 @@ const createToken = require("../utils/createToken.js");
 const { User } = require("../models/users.model");
 
 const registerNewUser = async (req, res) => {
-  const { fullName, email, password } = req.body;
+  const { name, email, password } = req.body;
   try {
     const user = await User.create({
-      fullName,
+      name,
       email,
       password,
     });
@@ -20,8 +20,7 @@ const registerNewUser = async (req, res) => {
       previouslyAttemptedTrivias: [],
     });
   } catch (error) {
-    const errors = errorHandler(error);
-    res.status(401).json({ errors });
+    res.status(401).json({ success: false, error: error.message });
   }
 };
 

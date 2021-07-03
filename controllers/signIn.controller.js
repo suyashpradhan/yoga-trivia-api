@@ -15,8 +15,7 @@ const userLogin = async (req, res) => {
       token: token,
     });
   } catch (error) {
-    const errors = errorHandler(error);
-    res.status(400).json({ success: false, errors });
+    res.status(401).json({ success: false, error: error.message });
   }
 };
 

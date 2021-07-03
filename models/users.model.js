@@ -5,23 +5,18 @@ const { TriviasAttemptedSchema } = require("./triviasAttempted.model");
 const { Schema } = mongoose;
 
 const UserSchema = new Schema({
-  fullName: {
+  name: {
     type: String,
-    required: [true, "Full name is required"],
+    required: [true, "Name is required"],
   },
   email: {
     type: String,
     required: [true, "Email is required"],
-    validate: [isEmail, "Email is invalid"],
     unique: true,
   },
   password: {
     type: String,
     required: [true, "Password is required"],
-    validate: [
-      isStrongPassword,
-      "Password requirements: Minimum 8 characters long, One Uppercase Character, One Lowercase Character & One Special Character",
-    ],
   },
   previouslyAttemptedTrivias: [TriviasAttemptedSchema],
 });
