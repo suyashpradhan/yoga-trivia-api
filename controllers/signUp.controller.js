@@ -17,7 +17,6 @@ const registerNewUser = async (req, res) => {
       message: "Succesfully signed up.",
       _id: user._id,
       token,
-      previouslyAttemptedTrivias: [],
     });
   } catch (error) {
     res.status(401).json({ success: false, error: error.message });
