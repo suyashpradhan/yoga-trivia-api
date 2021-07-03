@@ -18,7 +18,11 @@ const UserSchema = new Schema({
     type: String,
     required: [true, "Password is required"],
   },
+<<<<<<< HEAD
   /* previouslyAttemptedTrivias: [TriviasAttemptedSchema], */
+=======
+  /*  previouslyAttemptedTrivias: [TriviasAttemptedSchema], */
+>>>>>>> origin/main
 });
 
 //Middleware after user is created!

@@ -14,12 +14,18 @@ const registerNewUser = async (req, res) => {
     console.log(user);
     res.status(200).json({
       success: true,
+<<<<<<< HEAD
       user: {
         _id:user._id,
         token,
         name:user.name,
         email:user.email,
       }
+=======
+      message: "Succesfully signed up.",
+      _id: user._id,
+      token,
+>>>>>>> origin/main
     });
   } catch (error) {
     res.status(401).json({ success: false, error: error.message });
