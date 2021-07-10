@@ -4,4 +4,4 @@ const { fetchUserData } = require("../controllers/user.controller")
 
 router.route("/").get(fetchUserData)
 
-nodule.exports = router
+module.exports = router
