@@ -55,4 +55,7 @@ const getTriviaById = async (req, res) => {
   }
 };
 
+
+
+
 module.exports = { getTriviaList, addNewTrivia, getTriviaById };

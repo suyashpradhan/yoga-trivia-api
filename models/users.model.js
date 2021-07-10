@@ -12,17 +12,11 @@ const UserSchema = new Schema({
   email: {
     type: String,
     required: [true, "Email is required"],
-    unique: true,
   },
   password: {
     type: String,
     required: [true, "Password is required"],
   },
-<<<<<<< HEAD
-  /* previouslyAttemptedTrivias: [TriviasAttemptedSchema], */
-=======
-  /*  previouslyAttemptedTrivias: [TriviasAttemptedSchema], */
->>>>>>> origin/main
 });
 
 //Middleware after user is created!
